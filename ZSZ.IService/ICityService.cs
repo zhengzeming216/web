@@ -9,5 +9,7 @@ namespace ZSZ.IService
     public interface ICityService:IServiceSupport
     {
         long Add(string name);
+
+        long test();
     }
 }
