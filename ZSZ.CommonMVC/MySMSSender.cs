@@ -18,7 +18,6 @@ namespace ZSZ.CommonMVC
                 + Uri.EscapeDataString(AppKey) + "&templateId=" + Uri.EscapeDataString(templateId) + "&code="
                 + Uri.EscapeDataString(code) + "&phoneNum=" + Uri.EscapeDataString(phoneNum) + "";
 
-            Console.WriteLine("tes11");
             WebClient wc = new WebClient();
             wc.Encoding = Encoding.UTF8;
 
