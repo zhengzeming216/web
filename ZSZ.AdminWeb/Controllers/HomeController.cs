@@ -21,7 +21,7 @@ namespace ZSZ.AdminWeb.Controllers
             {
                 Session["aa"] = "aaa";
             }
-            //cityService.Add("深圳");
+            cityService.Add("深圳");
             return Content("OK");
         }
     }
